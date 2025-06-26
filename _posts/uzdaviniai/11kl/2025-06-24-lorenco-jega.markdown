@@ -1,6 +1,6 @@
----
-layout: post
-title:  "Pirmasis fizikos uždavinys"
+﻿---
+layout: posts
+title:  "Lorenco jėga"
 date:   2025-06-24 19:10:36 +0300
 categories: jekyll 11kl
 ---

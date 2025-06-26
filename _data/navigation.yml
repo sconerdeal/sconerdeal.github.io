@@ -1,0 +1,13 @@
+﻿main:
+  - title: "7 klasė"
+    url: /docs/quick-start-guide/
+  - title: "8 klasė"
+    url: /year-archive/
+  - title: "9 klasė"
+    url: /categories/
+  - title: "10 klasė"
+    url: /tags/
+  - title: "11 klasė"
+    url: /page-archive/
+  - title: "12 klasė"
+    url: /collection-archive/

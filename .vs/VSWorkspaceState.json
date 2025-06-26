@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\pages",
+    "\\_data",
+    "\\_drafts",
+    "\\_posts",
+    "\\_posts\\uzdaviniai",
+    "\\_posts\\uzdaviniai\\11kl"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\_data\\navigation.yml",
   "PreviewInSolutionExplorer": false
 }
