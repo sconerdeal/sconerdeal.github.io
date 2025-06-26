@@ -34,6 +34,34 @@ theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
   - jekyll-feed
+encoding: "utf-8"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+
+  # _foo
+  - scope:
+      path: ""
+      type: foo
+    values:
+      layout: single
 
 # Exclude from processing.
 # The following items will not be processed, by default.

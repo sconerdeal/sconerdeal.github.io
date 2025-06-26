@@ -8,4 +8,4 @@ classes:
   - dark-theme
   - wide
 ---
-Fizikos uzdaviniai
+Fizikos uždaviniai
