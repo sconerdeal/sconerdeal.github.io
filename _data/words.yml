@@ -1,0 +1,19 @@
+- word: "stalas"
+  forms:
+    vardininkas: "stalas"
+    kilmininkas: "stalo"
+    naudininkas: "stalui"
+    galininkas: "stalą"
+    inagininkas: "stalu"
+    vietininkas: "stale"
+    sauksmininkas: "stale"
+
+- word: "mama"
+  forms:
+    vardininkas: "mama"
+    kilmininkas: "mamos"
+    naudininkas: "mamai"
+    galininkas: "mamą"
+    inagininkas: "mama"
+    vietininkas: "mamoje"
+    sauksmininkas: "mama"

@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: exercises
 title: Lietuvių pratimai
 permalink: /lietuviu/
 ---
 
-Lietuvių kalbos pratimai
+Lietuvių kalbos pratimai....

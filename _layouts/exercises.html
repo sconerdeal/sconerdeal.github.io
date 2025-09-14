@@ -1,0 +1,63 @@
+---
+layout: default
+
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+        
+    {% for item in site.data.words %}
+      <div class="exercise">
+        <h2>{{ item.word }}</h2>
+        {% for case in item.forms %}
+          <label>{{ case | capitalize }}:</label>
+          <input type="text" 
+                data-answer="{{ item.forms[case] }}" 
+                oninput="checkAnswer(this)">
+          <span class="status"></span>
+          <br>
+        {% endfor %}
+      </div>
+    {% endfor %}
+
+    <script>
+      function normalize(str) {
+        return str
+          .trim()                 // remove spaces at start/end
+          .toLowerCase()          // lowercase
+          .normalize("NFC");      // normalize Unicode
+      }
+
+      function checkAnswer(input) {
+        const correct = normalize(input.dataset.answer);
+        const user = normalize(input.value);
+        const status = input.nextElementSibling;
+
+        console.log("User input: [" + input.value + "]");
+        console.log("Normalized user: [" + user + "]");
+        console.log("Correct value: [" + input.dataset.answer + "]");
+        console.log("Normalized correct: [" + correct + "]");
+
+        if (user === correct) {
+          status.textContent = "✔";
+          status.style.color = "green";
+        } else if (user.length > 0) {
+          status.textContent = "✘";
+          status.style.color = "red";
+        } else {
+          status.textContent = "";
+        }
+      }
+      </script>
+
+
+
+
+  </div>
+
+</article>
